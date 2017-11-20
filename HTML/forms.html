@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<title>Forms Practice</title>
+
+</head>
+
+<body>
+
+	<h1>Register</h1>
+
+	<form>
+		<div>	
+			<label for="firstName">First Name: </label>
+			<input id="firstName" type="text" placeholder="John" name="firstName" required>
+
+
+			<label for="lastName">Last Name: </label>
+			<input id="lastName" type="text" placeholder="Smith" name="lastName" required>
+		</div>
+
+		<div>
+			<label for="male">Male </label>
+			<input id="male" type="radio" value="male" name="sex">
+
+			<label for="female">Female </label>
+			<input id="female" type="radio" value="female" name="sex">
+
+			<label for="other">Other </label>
+			<input id="other" type="radio" value="other" name="sex">
+		</div>
+
+		<div>
+			<label for="email">Email: </label>
+			<input id="email" type="email" placeholder="Email" name="email" required>
+
+			<label for="password">Password: </label>
+			<input id="password" type="password" placeholder="Password" name="password" required>
+		</div>
+
+		<div>
+
+			Birthday:
+
+			<select name="month">
+			
+				<option>Month</option>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+				<option>Apr</option>
+				<option>May</option>
+				<option>Jun</option>
+				<option>Jul</option>
+				<option>Aug</option>
+				<option>Sept</option>
+				<option>Oct</option>
+				<option>Nov</option>
+				<option>Dec</option>
+
+			</select>
+
+		<select name="day">
+			
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>
+			
+		</select>
+
+		<select name="year">
+			
+			<option>Year</option>
+			<option>1999</option>
+			<option>2999</option>
+			<option>3999</option>
+			<option>4999</option>
+			<option>5999</option>
+			<option>6999</option>
+			<option>7999</option>
+			<option>8999</option>
+			<option>9999</option>
+			<option>10999</option>
+			<option>11999</option>
+			<option>12999</option>
+			
+		</select>
+
+		</div>
+
+		<div>
+		
+		I agree to the terms and conditions: 
+
+		<input type="checkbox" required>
+
+		</div>
+
+
+		<div>
+		
+		<input type="submit">
+
+		</div>
+
+	</form>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+h1 {
+	color: black;
+	border: 1px solid green;
+}
+
+h4 {
+	color: purple;
+	background: yellow;
+}
+
+li {
+	color: green;
+}
+
+body{
+	/*background: url(https://upload.wikimedia.org/wikipedia/en/3/3d/MountainAshFloor.jpghttps://upload.wikimedia.org/wikipedia/en/3/3d/MountainAshFloor.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+
+	background: pink;
+}
+
